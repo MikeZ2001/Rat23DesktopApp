@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.VerificationCodeController">
+    <children>
+        <Label text="Inserire il codice di verifica che abbiamo inviato per e-mail." textFill="#9a9ab0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+        </Label>
+        <TextField fx:id="verificationCodeTextField" layoutX="150.0" maxWidth="200.0" minHeight="50.0" minWidth="200.0" prefHeight="50.0" prefWidth="200.0" promptText="Verification code" style="-fx-border-radius: 10; -fx-border-color: #000000;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="confirmCodeButton" layoutX="283.0" layoutY="272.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-background-color: #344293;" text="Conferma" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <Button fx:id="resendButton" layoutX="210.0" layoutY="240.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" style="-fx-background-radius: 10; -fx-background-color: #344293;" text="Invia di nuovo" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Button>
+    </children>
+</VBox>

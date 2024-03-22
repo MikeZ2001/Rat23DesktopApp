@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <Button fx:id="allergeneLabel" alignment="CENTER" contentDisplay="RIGHT" style="-fx-border-color: CF0707; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-background-color: CF0707; -fx-border-width: 0.3;" text="x Uova" visible="true">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding></Button>
+
+</VBox>

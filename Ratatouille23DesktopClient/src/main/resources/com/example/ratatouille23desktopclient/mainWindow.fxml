@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.MainWindowController">
+   <children>
+      <AnchorPane prefHeight="73.0" prefWidth="1920.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 0.3 0;">
+         <children>
+            <Label layoutX="14.0" layoutY="25.0" text="Ratatouille 23" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="25.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" text="Nome Utente" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="userRoleLabel" text="Ruolo" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox prefHeight="1020.0" prefWidth="1920.0">
+         <children>
+            <VBox minWidth="103.0" maxWidth="103.0" prefHeight="1003.0" prefWidth="103.0" style="-fx-border-width: 0 0.3 0 0; -fx-border-color: black;">
+               <children>
+                  <ToggleButton fx:id="storeToggleButton" mnemonicParsing="false" onAction="#goToStoreView" prefHeight="50.0" prefWidth="101.0" selected="true" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Esercizio">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="leftMenuToggleGroup" />
+                     </toggleGroup>
+                  </ToggleButton>
+                  <ToggleButton fx:id="tablesToggleButton" mnemonicParsing="false" onAction="#goToTablesView" prefHeight="50.0" prefWidth="101.0" selected="false" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Tavoli" toggleGroup="$leftMenuToggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="categoriesToggleButton" mnemonicParsing="false" onAction="#goToCategoriesView" prefHeight="50.0" prefWidth="101.0" selected="false" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Categorie" toggleGroup="$leftMenuToggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="productsToggleButton" mnemonicParsing="false" onAction="#goToProductsView" prefHeight="50.0" prefWidth="101.0" selected="false" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Prodotti" toggleGroup="$leftMenuToggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="employeesToggleButton" mnemonicParsing="false" onAction="#goToEmployeesView" prefHeight="50.0" prefWidth="101.0" selected="false" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Dipendenti" toggleGroup="$leftMenuToggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="statisticToggleButton" mnemonicParsing="false" onAction="#goToStatisticsView" prefHeight="50.0" prefWidth="101.0" selected="false" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Statistiche" toggleGroup="$leftMenuToggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <VBox alignment="BOTTOM_LEFT" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ToggleButton fx:id="logoutButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="101.0" selected="false" style="-fx-background-color: red; -fx-text-fill: white;" styleClass="toggle-button1" stylesheets="@leftmenuToggleBttnStyle.css" text="Logout" toggleGroup="$leftMenuToggleGroup">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </ToggleButton>
+                     </children>
+                  </VBox>
+               </children></VBox>
+            <VBox fx:id="fragment" prefHeight="1002.0" prefWidth="1821.0" style="-fx-background-color: white;">
+            </VBox>
+         </children></HBox>
+   </children>
+</VBox>

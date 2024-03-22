@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="1020.0" prefWidth="1821.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.ProductsController">
+    <children>
+    <AnchorPane prefHeight="49.0" prefWidth="1819.0">
+        <children>
+            <Label layoutX="22.0" layoutY="16.0" text="Prodotti" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="16.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font></Label>
+            <Button fx:id="createProductButton" layoutX="1727.0" layoutY="9.0" mnemonicParsing="false" onAction="#createProduct" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Crea" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="9.0">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Button>
+            <Button fx:id="deleteProductButton" layoutX="1601.0" layoutY="10.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Elimina" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="9.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="editProductButton" layoutX="1508.0" layoutY="10.0" mnemonicParsing="false" onAction="#editProduct" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Modifica" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="220.0" AnchorPane.topAnchor="9.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="refreshButton" layoutX="1519.0" layoutY="19.0" mnemonicParsing="false" onAction="#getProducts" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Aggiorna" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="9.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+        </children></AnchorPane>
+        <VBox prefHeight="968.0" prefWidth="1821.0" style="-fx-background-color: green;">
+            <children>
+                <TextField fx:id="searchTextField" prefHeight="88.0" prefWidth="1821.0" promptText="Cerca" style="-fx-background-radius: 00;">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <TableView fx:id="productsTableView" prefHeight="975.0" prefWidth="1825.0" style="-fx-font-size: 15;">
+                    <columns>
+                        <TableColumn fx:id="nameColumn" prefWidth="247.0" text="Nome" />
+                        <TableColumn fx:id="categoryColumn" prefWidth="264.0" text="Categoria" />
+                        <TableColumn fx:id="descriptionColumn" prefWidth="1055.0" text="Descrizione" />
+                        <TableColumn fx:id="priceColumn" prefWidth="98.0" style="-fx-alignment: CENTER;" text="Prezzo" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </children>
+
+</VBox>

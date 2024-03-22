@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="1020.0" prefWidth="1821.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.StoreController">
+    <AnchorPane prefHeight="49.0" prefWidth="1819.0" style="-fx-background-color: white;">
+        <children>
+            <Label layoutX="14.0" layoutY="16.0" text="Esercizio" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="16.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+            </Label>
+            <Button fx:id="editButton" layoutX="1727.0" layoutY="9.0" mnemonicParsing="false" onAction="#startEditingStore" prefHeight="34.0" prefWidth="78.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Modifica" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="9.0">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Button>
+        </children>
+    </AnchorPane>
+    <AnchorPane prefHeight="959.0" prefWidth="1819.0">
+        <children>
+            <TextField fx:id="storeNameTextField" editable="false" layoutX="50.0" layoutY="92.0" prefHeight="34.0" prefWidth="366.0" promptText="Nome" text="Pizzeria da Michele" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="92.0">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </TextField>
+            <Label layoutX="50.0" layoutY="65.0" text="Nome esercizio" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="65.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="storeEmailTextField" editable="false" layoutX="50.0" layoutY="178.0" prefHeight="34.0" prefWidth="366.0" promptText="E-mail" text="sangennaro@aiutamitu.it" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="178.0">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </TextField>
+            <Label layoutX="50.0" layoutY="151.0" text="E-mail" AnchorPane.leftAnchor="50.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="storeAddressTextField" editable="false" layoutX="50.0" layoutY="262.0" prefHeight="34.0" prefWidth="366.0" promptText="Indirizzo" text="via De' Pizzaioli, 33" AnchorPane.leftAnchor="50.0">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </TextField>
+            <Label layoutX="50.0" layoutY="235.0" text="Indirizzo" AnchorPane.leftAnchor="50.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="storePhoneTextField" editable="false" layoutX="50.0" layoutY="351.0" prefHeight="34.0" prefWidth="366.0" promptText="Telefono" text="0813333333" AnchorPane.leftAnchor="50.0">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </TextField>
+            <Label layoutX="50.0" layoutY="324.0" text="Telefono" AnchorPane.leftAnchor="50.0">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+            </Label>
+         <Button fx:id="cancelButton" layoutX="50.0" layoutY="902.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" onAction="#cancelEditingStore" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Annulla" visible="false" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="50.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="saveButton" layoutX="1696.0" layoutY="900.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" onAction="#saveEditsStore" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Salva" visible="false" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+        </children></AnchorPane>
+</VBox>

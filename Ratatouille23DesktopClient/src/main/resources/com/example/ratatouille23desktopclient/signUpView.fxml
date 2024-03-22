@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.SignUpController">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logo.png" />
+            </image>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+        </ImageView>
+        <Label text="Welcome" textFill="#344293">
+            <font>
+                <Font name="System Bold" size="40.0" />
+            </font>
+        </Label>
+        <TextField fx:id="givenNameTextField" layoutX="150.0" maxWidth="600.0" minHeight="50.0" minWidth="600.0" prefHeight="50.0" promptText="Name" style="-fx-border-radius: 10; -fx-border-color: #000000;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="familyNameTextField" layoutX="150.0" maxWidth="600.0" minHeight="50.0" minWidth="600.0" prefHeight="50.0" promptText="Surname" style="-fx-border-radius: 10; -fx-border-color: #000000;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="emailTextField" layoutX="150.0" maxWidth="600.0" minHeight="50.0" minWidth="600.0" prefHeight="50.0" promptText="Email" style="-fx-border-radius: 10; -fx-border-color: #000000;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets bottom="16.0" />
+            </VBox.margin>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordTextField" accessibleRole="PASSWORD_FIELD" maxWidth="600.0" minHeight="50.0" minWidth="600.0" prefHeight="50.0" prefWidth="600.0" promptText="Password" style="-fx-border-color: #000000; -fx-border-radius: 10;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets bottom="8.0" />
+            </VBox.margin>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </PasswordField>
+        <Button fx:id="registerButton" layoutX="283.0" layoutY="272.0" maxWidth="300.0" minHeight="40.0" minWidth="300.0" mnemonicParsing="false" onAction="#signUp" prefWidth="300.0" style="-fx-background-radius: 10; -fx-background-color: #344293;" text="Registrati" textFill="WHITE">
+            <VBox.margin>
+                <Insets top="22.0" />
+            </VBox.margin>
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <Button fx:id="cancelButton" layoutX="400.0" layoutY="1165.0" maxWidth="-Infinity" minHeight="40.0" minWidth="300.0" mnemonicParsing="false" onAction="#goToLoginView" prefWidth="300.0" style="-fx-background-radius: 10; -fx-background-color: #344293;" text="Annulla" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Button>
+    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+
+</VBox>

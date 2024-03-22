@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ratatouille23desktopclient.controller.EditCategoryController">
+   <children>
+      <Label fx:id="titleLabel" prefHeight="27.0" prefWidth="219.0" text="Modifica Categoria">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <AnchorPane prefHeight="300.0" prefWidth="500.0">
+         <children>
+            <Button fx:id="cancelButton" layoutX="11.0" layoutY="121.0" mnemonicParsing="false" onAction="#cancelEdits" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Annulla" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="14.0" layoutY="29.0" prefHeight="20.0" prefWidth="54.0" text="Nome" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="25.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameTextField" layoutX="14.0" layoutY="58.0" prefHeight="30.0" prefWidth="277.0" promptText="Nome categoria" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="50.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="saveButton" layoutX="427.0" layoutY="95.0" mnemonicParsing="false" onAction="#saveEdits" prefWidth="65.0" style="-fx-background-color: #344293; -fx-background-radius: 0; -fx-text-fill: white;" text="Salva" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="8.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="10.0" layoutY="91.0" prefHeight="20.0" prefWidth="83.0" text="Descrizione" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="91.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="descriptionTextArea" layoutX="13.0" layoutY="111.0" prefHeight="100.0" prefWidth="479.0" promptText="Descrizione" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="111.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,4 @@
+.root{
+    -fx-background-image:url(backgroundImageLogin.jpg);
+    -fx-background-size:stretch;
+}

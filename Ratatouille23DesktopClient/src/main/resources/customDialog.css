@@ -1,0 +1,9 @@
+.custom-dialog .button {
+  -fx-background-radius: 0;
+  -fx-base: #344293;
+  -fx-text-fill: white;
+}
+
+.custom-dialog .text{
+    -fx-font: 14 system;
+}

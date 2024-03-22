@@ -1,0 +1,116 @@
+feb 12, 2024 11:50:08 AM com.example.ratatouille23desktopclient.controller.LoginController initialize
+INFORMAZIONI: Finestra di login inizializzata.
+feb 12, 2024 11:50:09 AM com.example.ratatouille23desktopclient.Rat23Main start
+INFORMAZIONI: Database locale dei suggerimenti connesso/creato.
+feb 12, 2024 11:50:20 AM com.example.ratatouille23desktopclient.controller.LoginController login
+INFORMAZIONI: Click su Login.
+feb 12, 2024 11:50:20 AM com.example.ratatouille23desktopclient.controller.LoginController login
+INFORMAZIONI: Avvio procedura di autenticazione.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.LoginController login
+INFORMAZIONI: Autenticazione terminata. Reindirizzamento alla schermata principale.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initialize
+INFORMAZIONI: Inizializzazione schermata principale.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initializeUserInfo
+INFORMAZIONI: Inizializzazione informazioni account.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initializeUserInfo
+INFORMAZIONI: Terminato inizializzazione informazioni account.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initializeLeftMenuToggleButtons
+INFORMAZIONI: Inizializzazione del menu a sinistra.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initializeLeftMenuToggleButtons
+INFORMAZIONI: Terminata inizializzazione del menu a sinistra.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.StoreController initialize
+INFORMAZIONI: Inizializzazione del fragment Attività.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.StoreController initialize
+INFORMAZIONI: Avvio procedura ottenimento informazioni attività dal server.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.StoreController initialize
+INFORMAZIONI: Terminata procedura ottenimento informazioni attività dal server.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.StoreController initialize
+INFORMAZIONI: Terminata inizializzazione del fragment Attività.
+feb 12, 2024 11:50:22 AM com.example.ratatouille23desktopclient.controller.MainWindowController initialize
+INFORMAZIONI: Schermata principale configurata e inizializzata.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.MainWindowController$1 changed
+INFORMAZIONI: Click su Tavoli
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initialize
+INFORMAZIONI: Inizializzazione fragment Tavoli.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeComponents
+INFORMAZIONI: Inizializzazione autorizzazioni di ruolo.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeComponents
+INFORMAZIONI: Terminata inizializzazione autorizzazioni di ruolo.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeTableView
+INFORMAZIONI: Inizializzazione tabella tavoli.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeTableView
+INFORMAZIONI: Inizializzazione tabella tavoli.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeTableDetailsButton
+INFORMAZIONI: Inizializzazione pulsante Dettagli Conto.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeTableDetailsButton
+INFORMAZIONI: Terminata inizializzazione pulsante Dettagli Conto.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeSearchTextField
+INFORMAZIONI: Inizializzazione text field per ricerca dei tavoli.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initializeSearchTextField
+INFORMAZIONI: Terminata inizializzazione text field per ricerca dei tavoli.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController getTables
+INFORMAZIONI: Click su Aggiorna.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController getTables
+INFORMAZIONI: Avvio procedura ottenimento tavoli lato server.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController getTables
+INFORMAZIONI: Terminata procedura ottenimento tavoli lato server.
+feb 12, 2024 11:50:24 AM com.example.ratatouille23desktopclient.controller.TablesController initialize
+INFORMAZIONI: Terminata inizializzazione fragment Tavoli.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TablesController lambda$initializeTableDetailsButton$4
+INFORMAZIONI: Click su Dettagli Conto.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TablesController lambda$initializeTableDetailsButton$4
+INFORMAZIONI: Reindirizzamento alla schermata dettagli conto del tavolo.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController initialize
+INFORMAZIONI: Inizializzazione schermata Dettagli Conto del tavolo.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController initialize
+INFORMAZIONI: Avvio procedura ottenimento conto attuale del tavolo.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController initialize
+INFORMAZIONI: Terminata inizializzazione schermata Dettagli Conto del tavolo.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController lambda$initialize$0
+INFORMAZIONI: Terminata procedura ottenimento conto attuale del tavolo.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController initializeItemsTable
+INFORMAZIONI: Inizializzazione tabella prodotti nel conto.
+feb 12, 2024 11:50:27 AM com.example.ratatouille23desktopclient.controller.TableDetailsController initializeItemsTable
+INFORMAZIONI: Terminata inizializzazione tabella prodotti nel conto.
+feb 12, 2024 11:50:29 AM com.example.ratatouille23desktopclient.controller.TableDetailsController printCheck
+INFORMAZIONI: Click su Stampa Conto. Reindirizzamento alla schermata di visualizzazione del conto pdf.
+feb 12, 2024 11:50:29 AM com.example.ratatouille23desktopclient.controller.PDFViewController initialize
+INFORMAZIONI: Inizializzazione schermata Visualizzazione PDF Conto.
+feb 12, 2024 11:50:29 AM com.example.ratatouille23desktopclient.controller.PDFViewController initializePDFDisplayer
+INFORMAZIONI: Inizializzazione pdf displayer.
+feb 12, 2024 11:50:30 AM com.example.ratatouille23desktopclient.controller.PDFViewController initializePDFDisplayer
+INFORMAZIONI: Terminata inizializzazione pdf displayer.
+feb 12, 2024 11:50:30 AM com.example.ratatouille23desktopclient.controller.PDFViewController createCheck
+INFORMAZIONI: Creazione file conto pdf temporaneo.
+feb 12, 2024 11:50:31 AM com.example.ratatouille23desktopclient.controller.PDFViewController createCheck
+INFORMAZIONI: Terminata creazione file conto pdf temporaneo. Caricamento del file nel displayer.
+feb 12, 2024 11:50:31 AM com.example.ratatouille23desktopclient.controller.PDFViewController initialize
+INFORMAZIONI: Terminata inizializzazione schermata Visualizzazione PDF Conto.
+feb 12, 2024 11:50:31 AM com.example.ratatouille23desktopclient.controller.PDFViewController lambda$loadFileInWebView$0
+INFORMAZIONI: Caricamento del file pdf nel displayer completato.
+feb 12, 2024 11:50:35 AM com.example.ratatouille23desktopclient.controller.PDFViewController$2 handle
+INFORMAZIONI: Click su Stampa.
+feb 12, 2024 11:50:35 AM com.example.ratatouille23desktopclient.controller.PDFViewController$2 handle
+INFORMAZIONI: Avvio procedura di stampa del conto.
+feb 12, 2024 11:50:54 AM com.example.ratatouille23desktopclient.controller.PDFViewController printCheck
+INFORMAZIONI: Mostrato dialog per set up della pagina di stampa.
+feb 12, 2024 11:50:58 AM com.example.ratatouille23desktopclient.controller.PDFViewController printCheck
+INFORMAZIONI: Mostrato dialog per selezione della stampante e formattazione della stampa.
+feb 12, 2024 11:51:05 AM com.example.ratatouille23desktopclient.controller.PDFViewController$1 handle
+INFORMAZIONI: Click su Chiudi. Reindirizzamento alla schermata Dettagli Conto del tavolo.
+feb 12, 2024 11:51:05 AM com.example.ratatouille23desktopclient.controller.PDFViewController closePDFView
+INFORMAZIONI: Eliminazione del file pdf temporaneo. Reindirizzamento alla schermata Dettagli Conto del tavolo.
+feb 12, 2024 11:51:08 AM com.example.ratatouille23desktopclient.controller.MainWindowController$1 changed
+INFORMAZIONI: Click su Logout
+feb 12, 2024 11:51:08 AM com.example.ratatouille23desktopclient.controller.MainWindowController logout
+INFORMAZIONI: Click su Logout.
+feb 12, 2024 11:51:08 AM com.example.ratatouille23desktopclient.controller.MainWindowController logout
+INFORMAZIONI: Avvio procedura di logout.
+feb 12, 2024 11:51:08 AM com.example.ratatouille23desktopclient.controller.MainWindowController logout
+INFORMAZIONI: Logout terminato. Reindirizzamento alla schermata di login.
+feb 12, 2024 11:51:08 AM com.example.ratatouille23desktopclient.controller.LoginController initialize
+INFORMAZIONI: Finestra di login inizializzata.
+feb 12, 2024 11:51:09 AM com.example.ratatouille23desktopclient.controller.PDFViewController printCheck
+INFORMAZIONI: Terminata procedura di stampa del conto.
+feb 12, 2024 11:51:10 AM com.example.ratatouille23desktopclient.controller.LoginController closeApp
+INFORMAZIONI: Click su Esci.
